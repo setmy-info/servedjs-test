@@ -1,12 +1,12 @@
 {
     "name": "servedjs-test",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Servedjs testing and mocking tools.",
     "main": "src/index.js",
     "scripts": {
         "start": "node ./src/backend/bin/www",
         "unit": "echo \"Error: no test specified\" && exit 1",
-        "test": "node ./src/frontend/public/node/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
         "build": "node ./src/build/index.js",
         "program": "echo \"Error: no program specified\" && exit 1"
     },
