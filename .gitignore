@@ -1,3 +1,6 @@
+#IDEs
+/nbproject
+
 # Logs
 logs
 *.log
