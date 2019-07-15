@@ -29,7 +29,7 @@
     },
     "homepage": "https://github.com/setmy-info/servedjs-test#readme",
     "dependencies": {
-        "servedjs": "^1.2.2"
+        "servedjs": "^1.4.3"
     },
     "devDependencies": {
         "jasmine": "^3.4.0",
