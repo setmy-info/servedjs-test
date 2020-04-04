@@ -4,7 +4,7 @@
 # Copyright (c) 2017-2020 Imre Tabur <imre.tabur@eesti.ee>
 
 NAME=servedjs-test
-RELEASE=1.0.5-SNAPSHOT
+RELEASE=1.0.5
 VERSION_TAG=version-${RELEASE}
 
 npm install
