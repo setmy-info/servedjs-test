@@ -4,7 +4,7 @@
 # Copyright (c) 2017-2020 Imre Tabur <imre.tabur@eesti.ee>
 
 NAME=servedjs-test
-RELEASE=1.0.5
+RELEASE=`node ./src/build/version.js`
 VERSION_TAG=version-${RELEASE}
 
 npm install
@@ -13,7 +13,7 @@ npm ci
 npm run build
 npm run test
 npm run unit
-git add ./dist package.json package-lock.json release.sh
+git add ./dist package.json package-lock.json release.sh src/frontend/public/js/
 git commit -m "${VERSION_TAG}"
 git push
 git checkout master
