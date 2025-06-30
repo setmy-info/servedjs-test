@@ -3,7 +3,7 @@
     "version": "1.1.3",
     "description": "Servedjs testing and mocking tools.",
     "license": "MIT",
-    "author": "Imre Tabur <imre.tabur@eesti.ee>",
+    "author": "Imre Tabur <imre.tabur@mail.ee>",
     "main": "dist/index.js",
     "scripts": {
         "start": "node ./src/backend/bin/www",
